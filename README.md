@@ -1,22 +1,25 @@
 # A Data-Driven Exploration of Career-Identity Uncertainty: Insights from the OSMI Tech Mental Health Dataset
 
-📌 Project Overview
+## 📌 Project Overview
 This project introduces a novel analysis angle on mental health in tech: instead of predicting mental health conditions, we predict career identity uncertainty - whether tech professionals question their career path due to mental health struggles.
-🎯 Key Finding
+
+### 🎯 Key Finding
 Age is the #1 predictor (40% feature importance) - career stage matters more than workplace policies!
-📊 Model Performance
+
+### 📊 Model Performance
 
 Accuracy: 61.4% (baseline Random Forest)
 F1-Score: 0.69 for identifying career-uncertain individuals
 Classes: Balanced (58% uncertain, 42% certain) - no SMOTE needed
 
 
-🗂️ Dataset
+## 🗂️ Dataset
 Source: Open Sourcing Mental Illness (OSMI) Mental Health in Tech Survey
 Years: 2017-2021 (combined)
 Citation: Memon, F.R. (2023). DOI: 10.17632/mmnzx4w8cg.1
 Size: 1,242 tech professionals, 11 features
-Features:
+
+### Features:
 
 Demographics: age, gender, country
 Workplace: tech_company, benefits, workplace_resources, medical_coverage
