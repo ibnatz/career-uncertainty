@@ -76,7 +76,7 @@ jupyter notebook mental_health_analysis.ipynb
 
 ### Feature Importance Rankings
 **Rank, Feature, Importance**
-- 1️⃣                  **Age**          **40.4%**
+- 1️⃣                  **Age,**          **40.4%**
 - 2️⃣            Mental Health Status,      11.9%
 - 3️⃣                 Country,              9.8%
 - 4️⃣             Workplace Resources,     8.6%
