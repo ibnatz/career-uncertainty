@@ -67,25 +67,25 @@ jupyter notebook mental_health_analysis.ipynb
 ## 📈 Results
 
 ### Model Performance
-- Metric      Class 0 (Certain)    Class 1 (Uncertain)
-- Precision      0.51                  0.68
-- Recall         0.49                  0.69
-- F1-Score       0.50                  0.69
+**Metric, Class 0 (Certain), Class 1 (Uncertain)**
+- Precision, 0.51, 0.68
+- Recall, 0.49, 0.69
+- F1-Score, 0.50, 0.69
 
 **Overall Accuracy: 61.4%**
 
 ### Feature Importance Rankings
-- Rank                Feature           Importance
-- 1️⃣                   **Age**          **40.4%**
-- 2️⃣            Mental Health Status      11.9%
-- 3️⃣                 Country              9.8%
-- 4️⃣             Workplace Resources      8.6%
-- 5️⃣                 Benefits             6.4%
-- 6️⃣                 Gender               6.3%
-- 7️⃣            Tech Company Status       5.3%
-- 8️⃣          MH Coworker Discussion      4.8%
-- 9️⃣          MH Employer Discussion      4.5%
-- 🔟             Medical Coverage         2.1%
+**Rank, Feature, Importance**
+- 1️⃣                  **Age**          **40.4%**
+- 2️⃣            Mental Health Status,      11.9%
+- 3️⃣                 Country,              9.8%
+- 4️⃣             Workplace Resources,     8.6%
+- 5️⃣                 Benefits,             6.4%
+- 6️⃣                 Gender,              6.3%
+- 7️⃣            Tech Company Status,       5.3%
+- 8️⃣          MH Coworker Discussion,      4.8%
+- 9️⃣          MH Employer Discussion,      4.5%
+- 🔟             Medical Coverage,         2.1%
 
 
 ## 🔍 Key Insights
