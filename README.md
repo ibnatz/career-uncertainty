@@ -14,15 +14,15 @@ Age is the #1 predictor (40% feature importance) - career stage matters more tha
 
 
 ## 🗂️ Dataset
-- **Source: Open Sourcing Mental Illness (OSMI) Mental Health in Tech Survey**
-- **Years: 2017-2021 (combined)**
-- **Citation: Memon, F.R. (2023). DOI: 10.17632/mmnzx4w8cg.1**
-- **Size: 1,242 tech professionals, 11 features**
+- **Source:** Open Sourcing Mental Illness (OSMI) Mental Health in Tech Survey
+- **Years:** 2017-2021 (combined)
+- **Citation:** Memon, F.R. (2023). DOI: 10.17632/mmnzx4w8cg.1
+- **Size:** 1,242 tech professionals, 11 features
 
 ### Features:
-- **Demographics: age, gender, country**
-- **Workplace: tech_company, benefits, workplace_resources, medical_coverage**
-- **Mental Health: mental_health (condition status), mh_employer_discussion, mh_coworker_discussion, mh_share (0-10 scale)**
+- **Demographics:** age, gender, country
+- **Workplace:** tech_company, benefits, workplace_resources, medical_coverage
+- **Mental Health:** mental_health (condition status), mh_employer_discussion, mh_coworker_discussion, mh_share (0-10 scale)
 
 
 ## 💡 Novel Contribution
@@ -36,7 +36,8 @@ Most analyses of this dataset focus on:
 ### But this project asks: "Does mental health make people question their career trajectory?"
 
 ### How We Define Career Uncertainty:
-```pythoncareer_uncertainty = 1 if mh_share >= 7 else 0
+```python
+career_uncertainty = 1 if mh_share >= 7 else 0
 ```
 **Rationale:** If someone's mental health significantly impacts their work (mh_share ≥ 7 out of 10), they likely experience career-related doubts and identity struggles.
 
